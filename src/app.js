@@ -1,3 +1,5 @@
-import CardR from './components/card'
+import Card from './components/card'
 
-new CardR()
+document.addEventListener('DOMContentLoaded', () => {
+  new Card()
+})

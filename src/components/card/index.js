@@ -3,7 +3,7 @@ import CardComponent from './Card.jsx'
 
 import { createRoot } from 'react-dom/client'
 
-export default class CardR {
+export default class Card {
   constructor() {
     this.init()
   }
