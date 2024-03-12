@@ -1,0 +1,33 @@
+{
+  "source": {
+    "include": [
+      "./src/app.js",
+      "./src/js",
+      "./src/js/forms",
+      "./src/components/modal/index.js"
+    ],
+    "exclude": ["node_modules", "docs"],
+    "includePattern": ".+\\.js(doc)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "opts": {
+    "template": "node_modules/minami",
+    "destination": "./docs"
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "default": {
+      "outputSourceFiles": true,
+      "includeDate": false
+    }
+  },
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc"]
+  },
+  "plugins": ["plugins/markdown"],
+  "recurseDepth": 10,
+  "sourceType": "module",
+  "encoding": "utf8"
+}

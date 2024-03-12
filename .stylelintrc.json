@@ -1,0 +1,11 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "keyframes-name-pattern": null,
+    "selector-class-pattern": null,
+    "alpha-value-notation": null,
+    "at-rule-no-unknown": null,
+    "no-descending-specificity": null
+  },
+  "ignoreFiles": ["**/docs/**"]
+}
